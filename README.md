@@ -36,14 +36,14 @@ This skill uses a different pattern:
 Clone the repo anywhere your coding agent can read it:
 
 ```bash
-git clone https://github.com/grandamenium/one-big-feature-skill.git
+git clone https://github.com/grandamenium/one-big-feature.git
 ```
 
 For Claude Code, copy or symlink the skill into your local skills directory:
 
 ```bash
 mkdir -p ~/.claude/skills
-ln -s "$(pwd)/one-big-feature-skill" ~/.claude/skills/one-big-feature
+ln -s "$(pwd)/one-big-feature" ~/.claude/skills/one-big-feature
 ```
 
 For Codex or other harnesses, point the agent at `SKILL.md` and the `commands/` and `templates/` folders.
